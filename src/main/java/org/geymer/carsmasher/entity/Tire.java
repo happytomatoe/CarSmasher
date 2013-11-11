@@ -23,6 +23,11 @@ Double size;
 @ManyToOne
 @JoinColumn(name = "car_id", referencedColumnName = "id")
 private Car car;
+public Tire(Car car){
+	this.car=car;
+	
+}
+public Tire(){}
 public int getId() {
 	return id;
 }

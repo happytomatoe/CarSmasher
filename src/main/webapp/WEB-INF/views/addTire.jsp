@@ -3,6 +3,7 @@
 <form  class="form-horizontal" method="post">
 
 	<input type="hidden" name="id" value="${tire.id}"/>
+	<input type="hidden" name="car" value="${tire.car}"/>
 	<div class="control-group">
 	<label for="name" class="control-label">Name</label>
 	<div class="controls">
